@@ -32,4 +32,5 @@ class test_boggle(unittest.TestCase):
         self.assertIn((1, 0), grid)
         self.assertIn((1, 1), grid)
         self.assertNotIn((2, 2), grid)
+        
 
